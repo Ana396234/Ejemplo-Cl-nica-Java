@@ -1,0 +1,21 @@
+// Enum para definir los roles disponibles
+enum Role {
+    HR("hr"),
+    DOC("doc"),
+    NUR("nur"),
+    ADM("adm"),
+    SUP("sup");
+}
+
+public class User extends Person {
+    private Role role;
+    private String username;
+    private String password;
+
+    // Constructor sin parámetros
+    public User() {
+        super();
+    }
+
+    
+}

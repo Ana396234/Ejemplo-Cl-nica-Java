@@ -1,0 +1,10 @@
+public class ClinicalRecord {
+    private String fecha;
+    private String motivo;
+
+    // Constructor por defecto
+    public ClinicalRecord() {
+    }
+
+
+}

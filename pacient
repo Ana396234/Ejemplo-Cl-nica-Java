@@ -1,0 +1,9 @@
+public class Pacient extends Person {
+  private boolean gender;
+  private Policy policy;
+
+  // Constructor por defecto
+  public Pacient() {
+      super();
+  }
+}

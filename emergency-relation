@@ -1,0 +1,11 @@
+public class EmergencyRelation {
+    private Pacient patient;
+    private Person contact;
+    private String relation;
+
+    // Constructor por defecto
+    public EmergencyRelation() {
+    }
+
+    
+}

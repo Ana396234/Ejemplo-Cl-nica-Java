@@ -1,0 +1,29 @@
+public class MedicalVisit {
+    // Clase interna para representar la información vital
+    public static class VitalInfo {
+        private double p;        // Presión
+        private double t;        // Temperatura
+        private double pulso;    // Pulso
+        private double o2;       // Oxígeno
+
+        // Constructor
+        public VitalInfo(double p, double t, double pulso, double o2) {
+            this.p = p;
+            this.t = t;
+            this.pulso = pulso;
+            this.o2 = o2;
+        }
+    }
+
+    private Pacient patient;
+    private User nurse;
+    private Order order;
+    private Item item;
+    private VitalInfo vitalInfo;
+
+    // Constructor por defecto
+    public MedicalVisit() {
+    }
+
+
+}

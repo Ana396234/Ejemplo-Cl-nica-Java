@@ -1,0 +1,10 @@
+public class ClinicalHistory {
+    private String document;
+    private ClinicalRecord[] clinicalRecord;
+
+    // Constructor por defecto
+    public ClinicalHistory() {
+    }
+
+    
+}

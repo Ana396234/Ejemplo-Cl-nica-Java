@@ -1,0 +1,13 @@
+public class Policy extends Company {
+    private String number;
+    private String status;
+    private String vigency;
+
+    // Constructor por defecto
+    public Policy() {
+        super();
+    }
+
+    
+}
+
